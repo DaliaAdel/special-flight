@@ -1,0 +1,81 @@
+body
+{
+    background-color: rgb(230, 230, 230);
+    font-family: 'Cairo';
+}
+nav
+{
+    /* background-color: #F1F1F1; */
+}
+.logo
+{
+    position: absolute;
+    right: 10%; 
+}
+.left-col form
+{
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: 0 5px 5px 5px rgb(214, 213, 213);
+    width: 75%;
+    padding: 50px;
+}
+.row1
+{
+    margin: 20px;
+}
+.con
+{
+    padding-top: 30px;
+}
+.btn
+{
+    background-color: rgb(147,30,33);
+    color: white;
+}
+.btn:hover
+{
+background-color: rgb(230, 230, 230);
+color: rgb(147,30,33);
+outline: 1px solid rgb(147,30,33) ;
+
+}
+.i,.help1
+{
+    color: rgb(147,30,33);
+}
+/* span
+{
+    font-size: 25px;
+    padding: 5px;
+} */
+.help
+{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(230, 230, 230),rgb(230, 230, 230),rgba(147,30,33,0.3));
+    box-shadow: 0 5px 5px 5px rgb(214, 213, 213);
+}
+.whats:hover,.whats:link ,.whats:active ,.whats:visited{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.foot-link:link ,.foot-link:hover ,.foot-link:visited,.foot-link:active
+{
+    color: grey;
+    text-decoration: none;
+}
+.branchs:link ,.branchs:hover ,.branchs:visited,.branchs:active
+{
+    text-decoration: none;
+}
+@media only screen and (max-width:900px) 
+{
+    .left-col form
+        {
+            width: 100%;
+            padding: 0px;
+        }
+    .row1
+    {
+        margin: 20px auto;
+    }
+}
