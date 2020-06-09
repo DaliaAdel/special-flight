@@ -2,6 +2,7 @@ body
 {
     background-color: rgb(230, 230, 230);
     font-family: 'Cairo';
+    font-size:17px ;
 }
 nav
 {
@@ -43,11 +44,18 @@ outline: 1px solid rgb(147,30,33) ;
 {
     color: rgb(147,30,33);
 }
-/* span
+.from
 {
-    font-size: 25px;
-    padding: 5px;
-} */
+    width: 49%;
+}
+.para
+{
+    color:black;
+    box-shadow: 0 5px 5px 5px rgb(214, 213, 213);
+    background-color: wheat;
+    margin-top: 15%;
+    padding: 10px;
+}
 .help
 {
     background-image: linear-gradient(rgb(255, 255, 255),rgb(230, 230, 230),rgb(230, 230, 230),rgba(147,30,33,0.3));
@@ -67,15 +75,23 @@ outline: 1px solid rgb(147,30,33) ;
 {
     text-decoration: none;
 }
+.foot
+{
+    padding-top: 60px;
+}
 @media only screen and (max-width:900px) 
 {
     .left-col form
         {
             width: 100%;
-            padding: 0px;
+            padding: 3px;
         }
     .row1
     {
         margin: 20px auto;
+    }
+    .foot
+    {
+        padding-top: 0px;
     }
 }
